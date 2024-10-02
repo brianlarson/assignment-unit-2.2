@@ -213,6 +213,13 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
+// FIX:
+// We are using a `const` declaration again for `minAge`
+// Use `let` to fix and make it a variable
+// Our conditional needs to be reversed as it's asking if `minAge` is less than
+// or equal to `age` -- change to: `if (age >= minAge) { ... }` to fix
+// Our `console.log()` locations need to be swapped so `enter` is before the else
+
 // CODE:
 /*
 let age = 21;
