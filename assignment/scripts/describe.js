@@ -190,6 +190,10 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
 
+// FIX:
+// We set `time` to be a constant instead of variable -- use `let` statement to fix
+// We are using an "or" operator (`||`) in the if statement -- use an "and" operator (`&&`) to fix
+
 // CODE:
 /*
 let temp = 40;
