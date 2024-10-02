@@ -1,7 +1,7 @@
 // WHAT IS THIS EVEN DOING?
 
 // For questions 1-3, each code block is syntactically and logically correct.
-// Your job is to describe what is happening. 
+// Your job is to describe what is happening.
 // They are in isolation -- variables in one question do not affect other questions.
 // DESCRIBE the code as it would be run, then let us know what the OUTCOME of the
 // console.log statement will be.
@@ -13,6 +13,7 @@
 // Then we increment the number variable. Number is now 2.
 // We check if number is greater than or equal to 2. If it is,
 // 'yes' will be console.logged.
+
 // OUTCOME:
 // 'yes' is what is logged.
 
@@ -33,15 +34,17 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
+// We make a string variable called name and give it a value
+// Then we check if name is Mary and if it is we console log a greeting to Mary
+// If the name is not Mary then we console log a generic greeting
 //
-//
-//
-//
-//
+
 // OUTCOME:
 //
+
+// NOTES:
+// `name` is a reserved keyword and deprecated and `firstName` is a safer option
+// You can call me nitpicky 😑
 
 // CODE:
 /*
@@ -59,15 +62,15 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
 //
+//
+//
+
 // OUTCOME:
 //
 
 // CODE:
-/*
+
 let secret;
 
 let code = 123;
@@ -82,16 +85,16 @@ if (code > 250) {
 }
 
 console.log(secret)
-*/
+
 
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
+//
+//
+//
 //
 // OUTCOME:
 //
@@ -119,7 +122,7 @@ if (isStudent === true && zip > 80000 ) {
 
 
 // REVERSE
-// Now, for questions 4-6, we'll give you a description and some code. 
+// Now, for questions 4-6, we'll give you a description and some code.
 // Some of the code will NOT match the description.
 // Comment above the problem code, and describe a potential solution.
 // Look closely -- things are logically incorrect or missing and wrong in the code!
@@ -128,16 +131,16 @@ if (isStudent === true && zip > 80000 ) {
 // DESCRIPTION:
 // We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 
+// We check if number is greater than or equal to 2.
 // -- it is, so we console.log 'yes'
 
 // CODE:
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
+// FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
@@ -147,10 +150,10 @@ if (number >= 2) {
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
 
-// 4. 
+// 4.
 // DESCRIPTION:
-// We start with three variables -- colorOne is set to 'blue' and 
-// colorTwo is set to 'red', and mix is set to true. We check if mix is true 
+// We start with three variables -- colorOne is set to 'blue' and
+// colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 // CODE:
@@ -170,7 +173,7 @@ if (mix === true) {
 // 5.
 // DESCRIPTION:
 // We start with two variables -- temp is set to 40 and time is set to 4.
-// We check if temp is higher than 39 and if time is greater or equal to  4 
+// We check if temp is higher than 39 and if time is greater or equal to  4
 // -- they are so we console.log 'throw away the food!'
 
 // CODE:
@@ -189,7 +192,7 @@ if (temp > 39 || time >= 4) {
 // 6.
 // DESCRIPTION:
 // We start with two variables -- age is set to 21 and minAge is set to 21.
-// We check if age is greater than or equal to minAge 
+// We check if age is greater than or equal to minAge
 // -- it is, so we console.log 'enter'.
 
 // CODE:
