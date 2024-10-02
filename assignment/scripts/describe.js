@@ -34,8 +34,8 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// We make a string variable called name and give it a value
-// Then we check if name is Mary and if it is we console log a greeting to Mary
+// We make a string variable called `name` and give it a value
+// Then we check if the name is Mary and if it is we console log a greeting to Mary
 // If the name is not Mary then we console log a generic greeting
 //
 
@@ -62,9 +62,12 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-//
-//
-//
+// First we make and undefined var and name is `secret`
+// Then we create a number var cand call it `code`
+// We check the code and make sure its value is 123 and is indeed a number data type
+// If this is the case then we set the secret to 'super' and multiply the code var by 2
+// Then we check if the code is greater than 250 and if so we set secret to 'duper'
+// Finally we log our `secret` variable to the console
 
 // OUTCOME:
 //
