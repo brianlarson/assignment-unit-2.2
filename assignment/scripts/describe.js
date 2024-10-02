@@ -165,6 +165,11 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX:
+// Our color values in our vars need to be swapped - they are incorrect
+// Setting colorTwo to 'purple' is missing in our `if()` statement
+// This line should be added to the conditional: `colorTwo = 'purple';`
+
 // CODE:
 /*
 let colorOne = 'red';
