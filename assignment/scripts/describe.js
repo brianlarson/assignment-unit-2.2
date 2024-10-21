@@ -40,7 +40,7 @@ if (number >= 2) {
 //
 
 // OUTCOME:
-//
+// The phrase 'How do you do?' is console logged because `name` is not equal to Mary
 
 // NOTES:
 // `name` is a reserved keyword and deprecated and `firstName` is a safer option
@@ -70,7 +70,7 @@ if (name === 'Mary') {
 // Finally we log our `secret` variable to the console
 
 // OUTCOME:
-//
+// The word 'super' is logged to the console because code is less than 250 after being multiplied by 2
 
 // CODE:
 
