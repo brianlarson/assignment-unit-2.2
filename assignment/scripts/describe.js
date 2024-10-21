@@ -98,8 +98,8 @@ console.log(secret)
 // We set three variables for isStudent (boolean), age (number) and zip (number)
 // Then we check if someone is a student and their zip is over 8000
 // If both are true we console log a message indicating the student is on the west coast
-// Then we check if the person is not a student and that they're under 30
-// If these both are true then we console log a message asking what their hobbies are
+// Then we check if the person is not a student or that they're under 30
+// If either of these are true then we console log a message asking what their hobbies are
 // Then we check only whether or not the individual is a student
 // If they are we console log a message welcoming them to Prime!
 // If none of the above conditions are true then we just ask about the weather
@@ -123,7 +123,6 @@ if (isStudent === true && zip > 80000 ) {
 } else {
   console.log('How about the weather?')
 }
-
 */
 
 // ------------------------------------------------------------ //
